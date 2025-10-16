@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Descargar Recetas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            background-color: #f7f7f7;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 18px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Descargar Recetas en PDF</h1>
+    <ul>
+        <li><a href="receta 1.pdf" download>📄 Descargar Receta 1</a></li>
+        <li><a href="receta 2.pdf" download>📄 Descargar Receta 2</a></li>
+        <li><a href="receta 3.pdf" download>📄 Descargar Receta 3</a></li>
+        <li><a href="receta 4.pdf" download>📄 Descargar Receta 4</a></li>
+    </ul>
+
+</body>
+</html>
